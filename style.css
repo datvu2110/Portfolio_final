@@ -147,7 +147,7 @@ nav a:hover{
     text-align: center;
     font-family: 'Allura', cursive;
     font-size: 4em;
-    color: goldenrod;
+    color: #48D1CC  ;
 }
 .individual{
     border:1px black solid;
@@ -237,6 +237,7 @@ nav a:hover{
 .btn:hover {
     background: #eee;
     border-color: #eee;
+    color: black;
 }
 
 .title{
@@ -308,13 +309,14 @@ nav a:hover{
 }
 
 
+
 @media screen and (min-width: 300px){
     .text-wrapper h1{
         font-size: 1em;
     }
 
     .text-wrapper div{
-        font-size: 0.7em;
+        font-size: 1em;
     }   
 
     .header{
@@ -372,7 +374,7 @@ nav a:hover{
         margin-bottom: 0;
     }
     .individual{
-        width: 33.34%;
+        width: 40%;
         height: auto;
         margin: 20px;
     }
