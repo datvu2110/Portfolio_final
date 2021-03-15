@@ -3,7 +3,7 @@ window.addEventListener("scroll", function(){
             let scrollPos = window.pageYOffset;
             parallax.style.transform ='translateY(' + scrollPos * .5 + 'px)';
 });
-
+ 
 // $(document).on("click","#proj1" ,showModal1);
 // $(document).on("click","#proj2" ,showModal2);
 // $(document).on("click","#close" ,hideModal);
