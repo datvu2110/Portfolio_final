@@ -137,6 +137,9 @@ nav a:hover{
     -webkit-filter: blur(8px);
 }
 
+.intrigued{
+    color: white;
+}
 
 
 .wrapper{
@@ -148,8 +151,20 @@ nav a:hover{
     text-align: center;
     font-family: 'Allura', cursive;
     font-size: 4em;
-    color: #48D1CC  ;
 }
+
+.project-header{
+    color: #4267B2;
+}
+
+.intrigued-header{
+    color:white
+}
+
+.skills-header{
+    color: #4267B2;
+}
+
 .individual{
     border:1px black solid;
     background: #2B3E50;
@@ -231,9 +246,10 @@ nav a:hover{
   font-family: 'Montserrat', sans-serif;
   margin: 10px;
   border: 1px #87CEEB solid;
-  background-color: #87CEEB;
+  background-color: #4267B2;
   border-radius: 30px;
   margin-top: 10%;
+  color: white;
 }
 .btn:hover {
     background: #eee;
@@ -314,10 +330,11 @@ nav a:hover{
 @media screen and (min-width: 300px){
     .text-wrapper h1{
         font-size: 1em;
+        padding-bottom: 0px;
     }
 
     .text-wrapper div{
-        font-size: 1em;
+        font-size: 0.9em;
     }   
 
     .header{
